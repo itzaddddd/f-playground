@@ -1,0 +1,2 @@
+GET http://localhost:9200/my_index/_search?q=elasticsearch jane&size=2&from=3
+GET http://localhost:9200/my_index/_search?q=-((message:elasticsearch AND age:22) OR age:19)
